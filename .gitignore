@@ -1,0 +1,39 @@
+# Java and Android .gitignore with comments
+# See https://github.com/github/gitignore for more templates
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+/local.properties
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# Build outputs
+*/build/
+
+# Android specific
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Keystore files
+*.jks
+
+# Logs
+*.log
+
+# Ignore gradle wrapper jar if not committed
+gradle/wrapper/gradle-wrapper.jar
+
+# Keep these comments to help contributors understand the groups above
